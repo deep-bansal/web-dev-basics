@@ -1,0 +1,89 @@
+@keyframes changeShape
+{
+	from 
+	{
+		border-radius: 0;
+	}
+	to
+	{
+		border-radius: 50%;
+	}
+}
+
+@keyframes bounce 
+{
+	from 
+	{
+		transform: translateY(-50px);
+	}
+
+	25%
+	{
+		transform: translateY(50px);
+	}
+
+	50%
+	{
+		transform: translateY(-25px);
+	}
+
+	100%
+	{
+		transform: translateY(25px);
+	}
+
+}
+
+@keyframes rotate
+
+{
+	from {
+		transform: rotate(0deg);
+	}
+
+	to
+	{
+		transform: rotate(270deg);
+	}
+}
+
+/*div
+{
+	width:150px;
+	height: 150px;
+	background-color: cyan;
+	position: absolute;
+	left: 30%;
+	top: 30%;
+	animation:changeShape 1s ease-in-out 4 alternate;
+	animation:bounce 1s ease-in-out 1 alternate;
+	animation:rotate 0.5s ease-in-out infinite alternate;
+
+}*/
+
+@keyframes fade-in
+{
+	from 
+	{
+		opacity: 1;
+
+	}
+
+	to
+	{
+		opacity: 0;
+	}
+}
+
+div
+{
+	width: 150px;
+	font-size: 1.2rem;
+	border: 0.5px solid black;
+	padding: 2px;
+	position: absolute;
+	left: 30%;
+	top: 30%;
+	animation: fade-in 2s ease-in-out infinite alternate ;
+
+}

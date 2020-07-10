@@ -1,0 +1,216 @@
+/*header*/
+
+#main-header
+{
+	margin : 40px;
+	margin-top : 60px;
+
+}
+
+#site-title a
+{
+	font-family: sans-serif;
+	font-size : 30px;
+	color :black;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+#site-title
+{
+	line-height: 0.4rem;
+}
+
+#header-image-container img
+{
+	width :93vw;
+}
+
+#blog-header h1
+{
+	font-family: sans-serif;
+	font-size: 47px;
+
+}
+
+
+/*author container*/
+
+#author-container
+{
+	display: inline-block;
+	vertical-align: top;
+	margin-right:10%;
+	line-height: 1.4rem;
+}
+
+#author-container a
+{
+	color: black;
+	text-decoration :none;
+	font-family: sans-serif;
+	font-size: 17px;
+}
+
+#author-container a:hover
+{
+	color :orange;
+}
+
+
+#author-container img
+{
+	border-radius: 50%; 
+	width: 55px;
+}
+
+/*main*/
+
+ main
+ {
+ 	width:70%;
+ 	display: inline-block;
+ 	margin-left: 39px;
+ }
+
+#views img
+{
+	width: 13px;
+    height: 12px;
+}
+
+#blog-content
+{
+	display: inline-block;
+	width: 60%;
+	font-size: 20px;
+}
+img.images-blog
+{
+	width:100%;
+	height: 100% ;
+}
+
+/*aside*/
+
+aside
+{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 0%;
+    width: 25%;
+    margin-top: 40px;
+}
+h4.widget-title
+{
+	text-transform: uppercase;
+	font-family: sans-serif;
+}
+.widget
+{
+	border-top : 4px solid black;
+    line-height: 2rem;
+    font-size: 1.1rem;
+    display: inline-block;
+    margin-top: 20px;
+    width:90%;
+}
+
+input
+{
+	display: block;
+	border: 1px solid #d1d1d1;
+	width:90%;
+	height:10%;
+	background-color: #f7f7f7;
+	margin-bottom: 1rem;
+	font-size: 1.1rem;
+	border-radius: 5%;
+	padding: 6px;
+
+}
+
+.sub-btn
+{
+	color:white;
+	border-radius:5%;
+	margin-bottom: 30px;
+	 
+}
+
+button[type="submit"]
+{
+	background-color: black;
+	border: 0px;
+	width:45%; 
+	height: 30%;
+	padding: 10px;
+}
+
+#search input
+{
+    margin-top : 30px;
+    width : 75%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    display : inline;
+    margin-bottom: 35px;
+}
+#search button img
+{
+    width : 18px;
+     vertical-align: middle
+}
+#search button
+{
+    width : 15%;
+    margin-left : -4px;
+    padding : 8px 0 6px;
+    border-radius: 0 5px 5px 0;
+    line-height: 1.6;
+}
+
+.widget a
+{
+	text-decoration: none;
+	color:#dc6520;
+}
+
+.widget a:hover
+{
+	color: #1a1a1a;
+}
+
+.names
+{
+    text-transform: uppercase;
+    color : #dc6520
+}
+
+#recent-posts li,
+#recent-comments li
+{
+    margin-bottom : 5px;
+}
+
+#recent-posts,
+#recent-comments
+{
+    margin-bottom : 60px;
+}
+
+
+#recent-posts h1,
+#recent-comments h1,
+#categories h1
+{
+    font-family: sans-serif;
+}
+
+
+#categories li
+{
+    line-height: 2rem;
+}
+
+
