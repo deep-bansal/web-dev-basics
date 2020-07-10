@@ -1,0 +1,37 @@
+h1
+{
+	text-align: center;
+}
+
+.common
+{
+	width:32%;
+	height: 300px;
+	display: inline-block;
+	margin: 0.5%;
+}
+
+@media screen and (max-width:600px)
+{
+	.common
+ {
+	width:100%;
+	height: 300px;
+	display: inline-block;
+	margin-bottom: -6px;
+}
+
+}
+
+.mb-red
+{
+	background-color: #ff8989;
+}
+.mb-cyan
+{
+	background-color: #88f7ce;
+}
+.mb-purple
+{
+	background-color: #e29df2;
+}
